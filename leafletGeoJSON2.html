@@ -7,8 +7,9 @@
 		
 		<script src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js"
 		integrity="sha512-mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1MrdXvMcA=="
-		crossorigin="">
+		crossorigin=""></script>
 		
+		<script>
 		// create a variable that will hold the XMLHttpRequest() - this must be done outside a function so
 		// that all the functions can use the same variable
 		var client;
@@ -44,7 +45,6 @@
 			// change the map zoom so that all the data is shown
 			mymap.fitBounds(earthquakelayer.getBounds());
 		}
-		
 		</script>
 		
 		<!-- the following CSS is used to set the size of the Map -->
