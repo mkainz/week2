@@ -105,9 +105,13 @@
 					mymap.fitBounds(busstoplayer.getBounds());
 				}
 				// Bus stop data remover funtion
+				var busstoplayer;
+				
 				function removeBusstopData(){
 								alert("Bus stop data will be removed");
+								mymap.removeLayer( busstoplayer );
 				}
+				
 				
 				
 		</script>
